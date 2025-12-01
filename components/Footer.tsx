@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20"
         >
 
-          <motion.div
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 }
@@ -44,9 +44,9 @@ const Footer: React.FC = () => {
                 <Linkedin size={14} />
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 }
@@ -59,9 +59,9 @@ const Footer: React.FC = () => {
               <li className="hover:text-white cursor-pointer transition-colors">Pricing</li>
               <li className="hover:text-white cursor-pointer transition-colors">Changelog</li>
             </ul>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 }
@@ -74,9 +74,9 @@ const Footer: React.FC = () => {
               <li className="hover:text-white cursor-pointer transition-colors">Contact</li>
               <li className="hover:text-white cursor-pointer transition-colors">Privacy Policy</li>
             </ul>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             variants={{
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0 }
@@ -93,12 +93,12 @@ const Footer: React.FC = () => {
                 Subscribe
               </button>
             </div>
-          </motion.div>
+          </motion.div> */}
 
         </motion.div>
 
         <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>Copyright © Starstrike 2024. All rights reserved.</p>
+          <p>Copyright © Starstrike 2025. All rights reserved.</p>
           <div className="flex items-center gap-2 px-3 py-1 rounded bg-white/5 border border-white/5">
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
             <span>Systems Operational</span>
