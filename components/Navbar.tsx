@@ -3,10 +3,9 @@ import { Menu, X, Zap } from 'lucide-react';
 import { NavItem } from '../types';
 
 const navItems: NavItem[] = [
+  { label: 'Video Showcase', href: '#video-showcase' },
   { label: 'Features', href: '#features' },
-  { label: 'Showcase', href: '#showcase' },
-  { label: 'Pricing', href: '#pricing' },
-  { label: 'Download', href: '#download' },
+  { label: 'Buy Now', href: '#one-time-purchase' },
 ];
 
 const Navbar: React.FC = () => {
@@ -23,21 +22,22 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
-        isScrolled
-          ? 'bg-background/80 backdrop-blur-md border-white/5 py-4'
-          : 'bg-transparent border-transparent py-6'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${isScrolled
+        ? 'bg-background/80 backdrop-blur-md border-white/5 py-4'
+        : 'bg-transparent border-transparent py-6'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2 cursor-pointer group">
+        <a href="#hero" className="flex items-center gap-2 cursor-pointer group">
+          <div className="flex items-center gap-2 cursor-pointer group">
             <div className="relative">
-                <div className="absolute inset-0 bg-primary blur-lg opacity-40 group-hover:opacity-60 transition-opacity" />
-                <Zap className="w-6 h-6 text-white relative z-10 fill-white" />
+              <div className="absolute inset-0 bg-primary blur-lg opacity-40 group-hover:opacity-60 transition-opacity" />
+              <Zap className="w-6 h-6 text-white relative z-10 fill-white" />
             </div>
             <span className="text-xl font-bold tracking-wider text-white">STARSTRIKE</span>
-        </div>
+          </div>
+        </a>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center gap-4">
           <a href="#download" className="hidden md:block text-xs font-bold tracking-widest uppercase text-white border border-white/20 px-4 py-2 rounded hover:bg-white hover:text-black transition-all">
-            Log In
+            Get Access
           </a>
           <button
             className="md:hidden text-white"

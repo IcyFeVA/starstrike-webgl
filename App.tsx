@@ -7,6 +7,7 @@ import OneTimePurchase from './components/OneTimePurchase';
 import Showcase from './components/Showcase';
 import Pricing from './components/Pricing';
 import CallToAction from './components/CallToAction';
+import About from './components/About';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <VideoShowcase />
         <Features />
         <OneTimePurchase />
+        <About />
         {/* <Showcase /> */}
         {/* <Pricing /> */}
         {/* <CallToAction /> */}

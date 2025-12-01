@@ -17,7 +17,7 @@ const OneTimePurchase: React.FC = () => {
                className="bg-surface border border-white/5 p-12 md:p-16 rounded-3xl shadow-2xl relative overflow-hidden group"
             >
                {/* Hover Gradient */}
-               <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+               <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent pointer-events-none" />
 
                <div className="relative z-10 flex flex-col items-center">
                   <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest mb-8">

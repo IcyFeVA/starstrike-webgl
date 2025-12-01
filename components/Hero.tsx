@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative pt-40 pb-20 lg:pt-0 lg:pb-0 lg:h-screen overflow-hidden flex items-center justify-center">
+    <section id="hero" className="relative pt-40 pb-20 lg:pt-0 lg:pb-0 lg:h-screen overflow-hidden flex items-center justify-center">
 
       {/* Unicorn Studio Background (Desktop Only) */}
       <div className="hidden lg:block absolute inset-0 z-0 overflow-hidden">
