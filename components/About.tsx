@@ -29,10 +29,9 @@ const About: React.FC = () => {
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 rounded-full text-white font-medium hover:bg-white/10 transition-colors backdrop-blur-sm group"
+                        className="bg-white/5 border border-white/10 text-white px-8 py-4 rounded font-bold hover:bg-white/10 transition-colors backdrop-blur-sm flex items-center justify-center inline-flex"
                     >
                         <span>Visit Portfolio</span>
-                        <ArrowUpRight className="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" />
                     </motion.a>
                 </motion.div>
             </div>

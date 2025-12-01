@@ -82,13 +82,23 @@ const Hero: React.FC = () => {
             transition={{ delay: 2, duration: 0.8, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4 pt-6 pl-1 lg:pl-0 lg:pt-20 lg:justify-center w-full"
           >
-            <a href="#one-time-purchase" className="bg-white text-black px-8 py-4 rounded font-bold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2 group">
+            <motion.a
+              href="#one-time-purchase"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-white text-black px-8 py-4 rounded font-bold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2 group inline-flex"
+            >
               <span>Get Access</span>
-              {/* <Command className="w-4 h-4 group-hover:scale-110 transition-transform" /> */}
-            </a>
-            <a href="#video-showcase" className="bg-white/5 border border-white/10 text-white px-8 py-4 rounded font-bold hover:bg-white/10 transition-colors backdrop-blur-sm flex items-center justify-center">
-              Learn More
-            </a>
+            </motion.a>
+
+            <motion.a
+              href="#video-showcase"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-white/5 border border-white/10 text-white px-8 py-4 rounded font-bold hover:bg-white/10 transition-colors backdrop-blur-sm flex items-center justify-center inline-flex"
+            >
+              <span>Learn More</span>
+            </motion.a>
           </motion.div>
         </motion.div>
 

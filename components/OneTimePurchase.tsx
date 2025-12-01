@@ -38,10 +38,10 @@ const OneTimePurchase: React.FC = () => {
                      <span className="text-gray-500 text-sm font-medium uppercase tracking-wide">/ One-time</span>
                   </div>
 
-                  <button className="bg-white text-black px-10 py-4 rounded font-bold hover:bg-gray-200 transition-all flex items-center gap-2 group/btn">
+                  <a href="https://buy.stripe.com/3cI4gAdeC7nQ0lSeyq9fW00" target="_blank" className="bg-white text-black px-10 py-4 rounded font-bold hover:bg-gray-200 transition-all flex items-center gap-2 group/btn">
                      <span>Get Lifetime Access</span>
                      <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </button>
+                  </a>
 
                   <div className="mt-10 pt-10 border-t border-white/5 w-full flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 text-sm text-gray-500">
                      <div className="flex items-center gap-2">

@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
 
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center gap-4">
-          <a href="#download" className="hidden md:block text-xs font-bold tracking-widest uppercase text-white border border-white/20 px-4 py-2 rounded hover:bg-white hover:text-black transition-all">
+          <a href="https://buy.stripe.com/3cI4gAdeC7nQ0lSeyq9fW00" target="_blank" className="hidden md:block text-xs font-bold tracking-widest uppercase text-white border border-white/20 px-4 py-2 rounded hover:bg-white hover:text-black transition-all">
             Get Access
           </a>
           <button
