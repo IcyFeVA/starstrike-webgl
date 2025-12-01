@@ -61,19 +61,18 @@ const Hero: React.FC = () => {
           {/* Elements visible ONLY on mobile */}
           <div className="lg:hidden flex items-center gap-3 text-primary text-[11px] font-bold tracking-[0.2em] uppercase mb-6 pl-1">
             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-            Next Version: Oct 12, 2024
+            Productivity boost
           </div>
 
           <h1 className="lg:hidden text-6xl md:text-8xl font-medium tracking-tight leading-[0.9] text-white">
-            Writing <br />
-            Redefined <br />
+            Starstrike makes writing<br />
             <span className="text-white/40">
-              In Context
+              blazingly fast
             </span>
           </h1>
 
           <p className="lg:hidden text-lg text-gray-400 max-w-md leading-relaxed pt-2 pl-1">
-            Master procedural grammar correction and kinetic tone shifting. A 12-week deep dive into the future of text interaction.
+            Proofread, rewrite with a different tone, or draft emails, LinkedIn posts, etc. quickly and easily.
           </p>
 
           {/* Buttons - Visible on both, centered on desktop */}
