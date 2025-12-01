@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
             Productivity boost
           </div>
 
-          <h1 className="lg:hidden text-6xl md:text-8xl font-medium tracking-tight leading-[0.9] text-white">
+          <h1 className="lg:hidden text-6xl md:text-8xl font-display font-medium tracking-tight leading-[0.9] text-white">
             Starstrike makes writing<br />
             <span className="text-white/40">
               blazingly fast

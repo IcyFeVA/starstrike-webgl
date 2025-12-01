@@ -18,7 +18,7 @@ const VideoShowcase: React.FC = () => {
                     <div className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">
                         Workflow Demo
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-medium text-white mb-6">
+                    <h2 className="text-4xl md:text-5xl font-display font-medium text-white mb-6">
                         See Starstrike in Action
                     </h2>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">

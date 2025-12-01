@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starstrike | Elevate Your Writing</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-              background: '#020309', // Deep Midnight Blue
-              surface: '#0A0C15',    // Dark Blue-Grey
-              surfaceHighlight: '#151824', // Rich Navy
-              primary: '#F97316', // Orange-500
-              primaryHover: '#EA580C', // Orange-600
-              accent: '#EF4444', // Red-500
-            },
-            backgroundImage: {
-              'glow-gradient': 'radial-gradient(circle at 50% 50%, rgba(249, 115, 22, 0.15) 0%, rgba(2, 3, 9, 0) 50%)',
-              'card-gradient': 'linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.0) 100%)',
-            }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starstrike | Elevate Your Writing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Rammetto One', 'cursive'],
+          },
+          colors: {
+            background: '#0b0c15', // Deep Midnight Blue
+            surface: '#0A0C15',    // Dark Blue-Grey
+            surfaceHighlight: '#151824', // Rich Navy
+            primary: '#F97316', // Orange-500
+            primaryHover: '#EA580C', // Orange-600
+            accent: '#EF4444', // Red-500
+          },
+          backgroundImage: {
+            'glow-gradient': 'radial-gradient(circle at 50% 50%, rgba(249, 115, 22, 0.15) 0%, rgba(2, 3, 9, 0) 50%)',
+            'card-gradient': 'linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.0) 100%)',
           }
         }
       }
-    </script>
-    <style>
-      body {
-        background-color: #020309;
-        color: #e5e5e5;
-      }
-      /* Custom Scrollbar for that premium feel */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #020309;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #1e293b;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #334155;
-      }
-    </style>
+    }
+  </script>
+  <style>
+    body {
+      background-color: #020309;
+      color: #e5e5e5;
+    }
+
+    /* Custom Scrollbar for that premium feel */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #020309;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -62,10 +70,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
-    <div id="root"></div>
+
+<body>
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
