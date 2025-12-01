@@ -18,9 +18,9 @@ const App: React.FC = () => {
         <VideoShowcase />
         <Features />
         <OneTimePurchase />
-        <Showcase />
-        <Pricing />
-        <CallToAction />
+        {/* <Showcase /> */}
+        {/* <Pricing /> */}
+        {/* <CallToAction /> */}
       </main>
       <Footer />
     </div>
